@@ -1,0 +1,433 @@
+2024.06.06 13:37:37 INFO  Started: Metals version 1.3.1 in folders '/home/pmudry/git/evilplot' for client Visual Studio Code 1.89.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@23773b40]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4ff4be9f]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@23773b40]
+2024.06.06 13:37:37 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.06 13:38:21 INFO  running '/usr/lib/jvm/java-21-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals16185152022166079109/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.06.06 13:38:21 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.9  (this may take some time)...[0m
+2024.06.06 13:38:21 WARN  no build target for: /home/pmudry/git/evilplot/project/metals.sbt[0m
+2024.06.06 13:38:21 WARN  no build target for: /home/pmudry/git/evilplot/project/project/metals.sbt[0m
+2024.06.06 13:38:21 INFO  no build target found for /home/pmudry/git/evilplot/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.9[0m
+2024.06.06 13:38:24 ERROR [info] [launcher] getting Scala 2.12.18 (for sbt)...[0m
+Jun 06, 2024 1:38:24 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 06, 2024 1:38:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/pmudry/git/evilplot/.metals/.reports/metals-full/2024-06-06/r_compiler-error_13-38-24-862.md
+2024.06.06 13:38:24 INFO  no build target found for /home/pmudry/git/evilplot/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.9[0m
+Jun 06, 2024 1:38:25 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 06, 2024 1:38:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/pmudry/git/evilplot/.metals/.reports/metals-full/2024-06-06/r_compiler-error_13-38-25-083.md
+2024.06.06 13:38:26 INFO  [info] welcome to sbt 1.9.9 (Ubuntu Java 21.0.3)[0m
+2024.06.06 13:38:28 INFO  no build target found for /home/pmudry/git/evilplot/build.sbt. Using presentation compiler with project's scala-library version: 2.13.9[0m
+Jun 06, 2024 1:38:28 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 06, 2024 1:38:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/pmudry/git/evilplot/.metals/.reports/metals-full/2024-06-06/r_compiler-error_13-38-28-925.md
+2024.06.06 13:38:29 INFO  [info] loading settings for project evilplot-build-build from metals.sbt ...[0m
+2024.06.06 13:38:29 INFO  [info] loading project definition from /home/pmudry/git/evilplot/project/project[0m
+2024.06.06 13:38:32 INFO  [info] loading settings for project evilplot-build from metals.sbt ...[0m
+2024.06.06 13:38:32 INFO  [info] loading project definition from /home/pmudry/git/evilplot/project[0m
+2024.06.06 13:38:36 INFO  no build target found for /home/pmudry/git/evilplot/build.sbt. Using presentation compiler with project's scala-library version: 2.13.9[0m
+Jun 06, 2024 1:38:36 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.06.06 13:38:36 INFO  [success] Generated .bloop/evilplot-build.json[0m
+Jun 06, 2024 1:38:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/pmudry/git/evilplot/.metals/.reports/metals-full/2024-06-06/r_compiler-error_13-38-36-317.md
+2024.06.06 13:38:36 INFO  no build target found for /home/pmudry/git/evilplot/build.sbt. Using presentation compiler with project's scala-library version: 2.13.9[0m
+Jun 06, 2024 1:38:36 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 06, 2024 1:38:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/pmudry/git/evilplot/.metals/.reports/metals-full/2024-06-06/r_compiler-error_13-38-36-518.md
+2024.06.06 13:38:36 INFO  [success] Total time: 3 s, completed Jun 6, 2024, 1:38:36 PM[0m
+2024.06.06 13:38:38 INFO  [info] loading settings for project evilplot from build.sbt ...[0m
+2024.06.06 13:38:38 INFO  [info] set current project to hello-world (in build file:/home/pmudry/git/evilplot/)[0m
+2024.06.06 13:38:38 INFO  [success] Generated .bloop/evilplot.json[0m
+2024.06.06 13:38:38 INFO  [success] Generated .bloop/evilplot-test.json[0m
+2024.06.06 13:38:38 INFO  [success] Total time: 1 s, completed Jun 6, 2024, 1:38:39 PM[0m
+2024.06.06 13:38:40 INFO  time: ran 'sbt bloopInstall' in 18s[0m
+2024.06.06 13:38:40 INFO  Attempting to connect to the build server...[0m
+2024.06.06 13:38:40 INFO  Setting up current java home /usr/lib/jvm/java-21-openjdk-amd64 in /home/pmudry/.bloop/bloop.json[0m
+2024.06.06 13:38:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pmudry/git/evilplot/.metals/bsp.trace.json or /home/pmudry/.cache/metals/bsp.trace.json[0m
+2024.06.06 13:38:46 INFO  Attempting to connect to the build server...[0m
+2024.06.06 13:38:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pmudry/git/evilplot/project/.metals/bsp.trace.json or /home/pmudry/.cache/metals/bsp.trace.json[0m
+2024.06.06 13:38:46 INFO  time: Connected to build server in 7.47s[0m
+2024.06.06 13:38:46 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.06.06 13:38:46 INFO  time: Imported build in 0.18s[0m
+2024.06.06 13:38:50 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.06.06 13:38:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.06.06 13:38:58 INFO  time: indexed workspace in 11s[0m
+2024.06.06 13:38:59 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:39:03 INFO  time: compiled evilplot in 4.86s[0m
+2024.06.06 13:39:05 INFO  time: code lens generation in 1.85s[0m
+2024.06.06 13:39:05 INFO  time: code lens generation in 1.85s[0m
+2024.06.06 13:39:05 INFO  time: code lens generation in 1.85s[0m
+2024.06.06 13:39:05 INFO  time: code lens generation in 1.85s[0m
+2024.06.06 13:39:48 INFO  Disconnecting from Bloop session...[0m
+2024.06.06 13:39:48 INFO  Shut down connection with build server.[0m
+2024.06.06 13:39:48 INFO  Shut down connection with build server.[0m
+2024.06.06 13:39:48 INFO  Deleted directories inside .bloop[0m
+2024.06.06 13:39:48 INFO  Attempting to connect to the build server...[0m
+2024.06.06 13:39:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pmudry/git/evilplot/.metals/bsp.trace.json or /home/pmudry/.cache/metals/bsp.trace.json[0m
+2024.06.06 13:39:50 INFO  Attempting to connect to the build server...[0m
+2024.06.06 13:39:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pmudry/git/evilplot/project/.metals/bsp.trace.json or /home/pmudry/.cache/metals/bsp.trace.json[0m
+2024.06.06 13:39:50 INFO  time: Connected to build server in 2.84s[0m
+2024.06.06 13:39:50 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.06.06 13:39:51 INFO  time: Imported build in 0.14s[0m
+2024.06.06 13:39:52 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.06.06 13:39:52 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.06.06 13:39:52 INFO  time: indexed workspace in 1.39s[0m
+2024.06.06 13:39:53 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:39:56 INFO  time: compiled evilplot in 3.2s[0m
+2024.06.06 13:42:05 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:42:08 INFO  time: compiled evilplot in 2.79s[0m
+2024.06.06 13:42:38 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:42:39 INFO  time: compiled evilplot in 1.42s[0m
+2024.06.06 13:42:41 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:42:42 INFO  time: compiled evilplot in 1.09s[0m
+2024.06.06 13:42:46 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.06 13:42:46 INFO  no build target found for /scala/swing/SimpleSwingApplication.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 06, 2024 1:43:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 289
+Jun 06, 2024 1:43:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 291
+Jun 06, 2024 1:43:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 293
+2024.06.06 13:43:14 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:43:14 INFO  time: compiled evilplot in 0.85s[0m
+2024.06.06 13:43:17 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:43:17 INFO  time: compiled evilplot in 0.98s[0m
+2024.06.06 13:43:19 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 13:43:21 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 13:43:21 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 13:43:21 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 13:43:39 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 13:43:45 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 13:43:46 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 13:43:46 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:43:46 INFO  time: compiled evilplot in 0.17s[0m
+2024.06.06 13:43:47 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 13:43:49 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 13:43:50 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:43:50 INFO  time: compiled evilplot in 0.89s[0m
+2024.06.06 13:44:19 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:44:19 INFO  time: compiled evilplot in 0.77s[0m
+2024.06.06 13:44:25 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:44:25 INFO  time: compiled evilplot in 0.2s[0m
+Jun 06, 2024 1:45:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 762
+2024.06.06 13:45:50 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:45:50 INFO  time: compiled evilplot in 0.1s[0m
+2024.06.06 13:45:57 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:45:57 INFO  time: compiled evilplot in 0.15s[0m
+2024.06.06 13:46:01 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:46:01 INFO  time: compiled evilplot in 0.11s[0m
+2024.06.06 13:46:18 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:46:18 INFO  time: compiled evilplot in 0.11s[0m
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+Downloaded https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar
+Downloaded https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar
+2024.06.06 13:55:30 ERROR scalafmt: /home/pmudry/git/evilplot/src/main/scala/Main.scala:32: error: [dialect scala213] illegal start of definition .
+  ...
+  ^[0m
+2024.06.06 13:55:30 ERROR scalafmt: /home/pmudry/git/evilplot/src/main/scala/Main.scala:32: error: [dialect scala213] illegal start of definition .
+  ...
+  ^[0m
+Jun 06, 2024 1:55:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1103
+2024.06.06 13:55:33 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:55:33 INFO  time: compiled evilplot in 0.15s[0m
+2024.06.06 13:55:37 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:55:37 INFO  time: compiled evilplot in 0.13s[0m
+2024.06.06 13:55:58 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:55:58 INFO  time: compiled evilplot in 0.1s[0m
+2024.06.06 13:56:23 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:56:23 INFO  no build target found for /scala/swing/Component.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.06 13:56:23 INFO  time: compiled evilplot in 0.21s[0m
+2024.06.06 13:56:26 WARN  Using indexes to guess the definition of g[0m
+2024.06.06 13:56:28 WARN  Using indexes to guess the definition of g[0m
+2024.06.06 13:56:28 WARN  Using indexes to guess the definition of g[0m
+2024.06.06 13:56:32 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:56:32 INFO  time: compiled evilplot in 0.13s[0m
+2024.06.06 13:56:33 WARN  Using indexes to guess the definition of g[0m
+2024.06.06 13:56:34 WARN  Using indexes to guess the definition of g[0m
+2024.06.06 13:56:35 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:56:35 INFO  time: compiled evilplot in 0.15s[0m
+Jun 06, 2024 1:56:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1360
+Jun 06, 2024 1:56:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1361
+Jun 06, 2024 1:56:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1362
+2024.06.06 13:56:57 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:56:57 INFO  time: compiled evilplot in 0.11s[0m
+2024.06.06 13:57:07 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:57:07 INFO  time: compiled evilplot in 0.14s[0m
+2024.06.06 13:57:12 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:57:12 INFO  time: compiled evilplot in 0.76s[0m
+2024.06.06 13:57:34 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:57:34 INFO  time: compiled evilplot in 0.54s[0m
+2024.06.06 13:57:48 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:57:48 INFO  time: compiled evilplot in 0.69s[0m
+Jun 06, 2024 1:59:02 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 06, 2024 1:59:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 06, 2024 1:59:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1892
+2024.06.06 13:59:51 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 13:59:52 INFO  time: compiled evilplot in 1.03s[0m
+2024.06.06 14:00:05 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:00:05 INFO  time: compiled evilplot in 85ms[0m
+2024.06.06 14:00:05 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:09 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:11 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:13 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:13 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:14 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:14 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:16 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:00:16 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:16 INFO  time: compiled evilplot in 0.14s[0m
+2024.06.06 14:00:16 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:16 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:17 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:00:17 INFO  time: compiled evilplot in 78ms[0m
+2024.06.06 14:00:17 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:19 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:00:19 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:19 INFO  time: compiled evilplot in 0.13s[0m
+2024.06.06 14:00:19 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:20 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:20 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:22 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:23 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:23 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:27 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:29 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:30 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:33 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:33 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:34 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:36 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:36 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:38 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:00:38 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:00:38 INFO  time: compiled evilplot in 0.83s[0m
+2024.06.06 14:01:18 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:01:18 INFO  time: compiled evilplot in 0.1s[0m
+2024.06.06 14:01:19 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:01:19 INFO  time: compiled evilplot in 0.13s[0m
+2024.06.06 14:02:40 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:02:40 INFO  time: compiled evilplot in 0.11s[0m
+2024.06.06 14:02:52 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:02:52 INFO  time: compiled evilplot in 0.1s[0m
+2024.06.06 14:03:10 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:03:10 INFO  time: compiled evilplot in 0.9s[0m
+2024.06.06 14:03:32 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:03:32 INFO  time: compiled evilplot in 0.51s[0m
+2024.06.06 14:04:13 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:04:13 INFO  time: compiled evilplot in 93ms[0m
+2024.06.06 14:04:17 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:04:17 INFO  time: compiled evilplot in 91ms[0m
+2024.06.06 14:04:33 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:04:33 INFO  time: compiled evilplot in 0.98s[0m
+2024.06.06 14:04:39 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:04:39 INFO  time: compiled evilplot in 0.72s[0m
+Jun 06, 2024 2:04:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2933
+Jun 06, 2024 2:05:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3002
+Jun 06, 2024 2:05:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3003
+2024.06.06 14:05:11 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:05:11 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:05:11 INFO  time: compiled evilplot in 0.66s[0m
+2024.06.06 14:05:16 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:05:16 INFO  time: compiled evilplot in 0.8s[0m
+2024.06.06 14:05:33 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:05:33 INFO  time: compiled evilplot in 0.57s[0m
+2024.06.06 14:05:34 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:05:34 WARN  Could not load snapshot text for /home/pmudry/git/evilplot/src/main/scala/Main.scala[0m
+2024.06.06 14:05:34 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:05:34 INFO  time: compiled evilplot in 0.42s[0m
+Jun 06, 2024 2:05:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3200
+Jun 06, 2024 2:05:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3342
+Jun 06, 2024 2:05:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3351
+2024.06.06 14:06:16 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:06:16 INFO  time: compiled evilplot in 0.62s[0m
+2024.06.06 14:06:34 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:06:34 INFO  time: compiled evilplot in 0.61s[0m
+2024.06.06 14:11:15 INFO  running '/usr/lib/jvm/java-21-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals6286834267325977989/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.06.06 14:11:17 INFO  [info] welcome to sbt 1.9.9 (Ubuntu Java 21.0.3)[0m
+2024.06.06 14:11:18 INFO  [info] loading settings for project evilplot-build-build from metals.sbt ...[0m
+2024.06.06 14:11:19 INFO  [info] loading project definition from /home/pmudry/git/evilplot/project/project[0m
+2024.06.06 14:11:21 INFO  [info] loading settings for project evilplot-build from metals.sbt ...[0m
+2024.06.06 14:11:21 INFO  [info] loading project definition from /home/pmudry/git/evilplot/project[0m
+2024.06.06 14:11:24 INFO  [success] Generated .bloop/evilplot-build.json[0m
+2024.06.06 14:11:24 INFO  [success] Total time: 3 s, completed Jun 6, 2024, 2:11:24 PM[0m
+2024.06.06 14:11:28 INFO  [info] loading settings for project evilplot from build.sbt ...[0m
+2024.06.06 14:11:28 INFO  [info] set current project to hello-world (in build file:/home/pmudry/git/evilplot/)[0m
+2024.06.06 14:11:31 INFO  [success] Generated .bloop/evilplot.json[0m
+2024.06.06 14:11:31 INFO  [success] Generated .bloop/evilplot-test.json[0m
+2024.06.06 14:11:31 INFO  [success] Total time: 3 s, completed Jun 6, 2024, 2:11:31 PM[0m
+2024.06.06 14:11:32 INFO  time: ran 'sbt bloopInstall' in 17s[0m
+2024.06.06 14:11:32 INFO  Disconnecting from Bloop session...[0m
+2024.06.06 14:11:32 INFO  Shut down connection with build server.[0m
+2024.06.06 14:11:32 INFO  Shut down connection with build server.[0m
+2024.06.06 14:11:32 INFO  Attempting to connect to the build server...[0m
+2024.06.06 14:11:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pmudry/git/evilplot/.metals/bsp.trace.json or /home/pmudry/.cache/metals/bsp.trace.json[0m
+2024.06.06 14:11:32 INFO  Attempting to connect to the build server...[0m
+2024.06.06 14:11:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/pmudry/git/evilplot/project/.metals/bsp.trace.json or /home/pmudry/.cache/metals/bsp.trace.json[0m
+2024.06.06 14:11:32 INFO  time: Connected to build server in 0.11s[0m
+2024.06.06 14:11:32 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.06.06 14:11:34 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.06.06 14:11:37 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.06.06 14:11:37 INFO  time: indexed workspace in 5.22s[0m
+2024.06.06 14:11:37 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:11:39 INFO  compiling evilplot (2 scala sources)[0m
+2024.06.06 14:11:39 INFO  time: compiled evilplot in 84ms[0m
+2024.06.06 14:11:43 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:11:43 INFO  time: compiled evilplot in 0.13s[0m
+2024.06.06 14:12:01 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:12:01 INFO  time: compiled evilplot in 0.2s[0m
+2024.06.06 14:12:01 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:12:01 INFO  time: compiled evilplot in 0.14s[0m
+2024.06.06 14:12:28 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:12:28 INFO  time: compiled evilplot in 0.13s[0m
+2024.06.06 14:12:44 INFO  file:///home/pmudry/git/evilplot/src/main/scala/EvilPlot.scala:16:3: stale bloop error: not found: value displayPlot
+  displayPlot(ScatterPlot(data).render())
+  ^^^^^^^^^^^[0m
+2024.06.06 14:12:48 INFO  file:///home/pmudry/git/evilplot/src/main/scala/EvilPlot.scala:16:3: stale bloop error: not found: value displayPlot
+  displayPlot(ScatterPlot(data).render())
+  ^^^^^^^^^^^[0m
+2024.06.06 14:12:52 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:12:52 INFO  time: compiled evilplot in 0.19s[0m
+2024.06.06 14:13:15 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:13:15 INFO  time: compiled evilplot in 95ms[0m
+2024.06.06 14:13:19 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:13:19 INFO  time: compiled evilplot in 0.11s[0m
+2024.06.06 14:13:29 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:13:29 INFO  time: compiled evilplot in 0.66s[0m
+2024.06.06 14:13:33 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:13:33 INFO  time: compiled evilplot in 73ms[0m
+2024.06.06 14:13:34 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:13:34 INFO  time: compiled evilplot in 0.55s[0m
+2024.06.06 14:13:48 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:13:48 INFO  time: compiled evilplot in 87ms[0m
+2024.06.06 14:13:49 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:13:49 INFO  time: compiled evilplot in 0.13s[0m
+Jun 06, 2024 2:13:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4083
+2024.06.06 14:13:59 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:13:59 INFO  time: compiled evilplot in 0.13s[0m
+2024.06.06 14:14:17 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:14:17 INFO  time: compiled evilplot in 0.11s[0m
+2024.06.06 14:14:20 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:14:20 INFO  time: compiled evilplot in 0.11s[0m
+2024.06.06 14:14:24 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:14:24 INFO  time: compiled evilplot in 0.11s[0m
+2024.06.06 14:14:26 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:14:26 INFO  time: compiled evilplot in 0.14s[0m
+2024.06.06 14:14:30 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:14:30 INFO  time: compiled evilplot in 99ms[0m
+2024.06.06 14:14:36 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:14:36 INFO  time: compiled evilplot in 0.71s[0m
+2024.06.06 14:14:38 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:14:38 INFO  time: compiled evilplot in 0.16s[0m
+2024.06.06 14:14:43 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:14:43 INFO  time: compiled evilplot in 0.45s[0m
+2024.06.06 14:15:08 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:15:08 INFO  time: compiled evilplot in 0.11s[0m
+2024.06.06 14:16:42 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:16:42 INFO  time: compiled evilplot in 97ms[0m
+2024.06.06 14:16:53 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:16:53 INFO  time: compiled evilplot in 0.11s[0m
+2024.06.06 14:16:57 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:16:57 INFO  time: compiled evilplot in 0.13s[0m
+2024.06.06 14:17:14 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:17:14 INFO  time: compiled evilplot in 81ms[0m
+2024.06.06 14:17:59 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:17:59 INFO  time: compiled evilplot in 71ms[0m
+2024.06.06 14:18:53 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:18:53 INFO  time: compiled evilplot in 65ms[0m
+2024.06.06 14:18:57 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:18:57 INFO  time: compiled evilplot in 55ms[0m
+2024.06.06 14:18:59 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:18:59 INFO  time: compiled evilplot in 0.48s[0m
+2024.06.06 14:50:41 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:50:41 INFO  time: compiled evilplot in 81ms[0m
+2024.06.06 14:50:45 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:50:45 INFO  time: compiled evilplot in 0.16s[0m
+2024.06.06 14:51:02 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:51:02 INFO  time: compiled evilplot in 0.13s[0m
+2024.06.06 14:51:31 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:51:31 INFO  time: compiled evilplot in 0.12s[0m
+2024.06.06 14:51:36 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:51:36 INFO  time: compiled evilplot in 0.11s[0m
+Jun 06, 2024 2:51:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4888
+2024.06.06 14:51:40 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:51:40 INFO  time: compiled evilplot in 68ms[0m
+2024.06.06 14:51:45 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:51:45 INFO  time: compiled evilplot in 58ms[0m
+2024.06.06 14:51:55 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:51:55 INFO  time: compiled evilplot in 67ms[0m
+2024.06.06 14:51:59 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:51:59 INFO  time: compiled evilplot in 0.65s[0m
+Jun 06, 2024 2:51:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4968
+2024.06.06 14:52:07 INFO  compiling evilplot (1 scala source)[0m
+2024.06.06 14:52:07 INFO  time: compiled evilplot in 0.44s[0m
